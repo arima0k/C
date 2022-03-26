@@ -2,7 +2,7 @@
 float CalculoNeto(float sueldo, float descuento);
 float CalculoDescuento(float sueldo);
 int main() {
-    float sal = 0, sueldo = 0, desc;
+    float sal, sueldo = 0, desc;
     do {
         //Datos Entrada,
         if (sal <= 0) //lanzara error de excepcion si es menor igual a '0'
